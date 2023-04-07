@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 4</title>
+
+    <style>
+        #container{
+            background-color: aliceblue;
+            height: 735px;
+
+            display: grid;
+            grid-template-rows: 100px auto 100px;
+        }
+
+        #header1{
+            background-color: paleturquoise;
+            padding: 20px;
+        }
+
+        #body1{
+            padding: 20px;
+        }
+
+        #footer1{
+            background-color: paleturquoise;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="items" id="header1">header</div>
+        <div class="items" id="body1">main section</div>
+        <div class="items" id="footer1">footer</div>
+    </div>
+</body>
+</html>
